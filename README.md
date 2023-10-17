@@ -39,6 +39,10 @@ en ella encontraras mi página de inicio de sesión.
 
 ![image](https://github.com/rayo100/TallerSeguridad-AREP/assets/89558695/38a1726c-ca7b-44cd-817c-e7a8b5d61aaa)
 
+POSDATA: Para realizar el despliegue en AWS, realicé un cambio en el codigo en el redireccionamiento de la página al iniciar sesión correctamente.
+![image](https://github.com/rayo100/TallerSeguridad-AREP/assets/89558695/956270a5-7080-488b-9d7e-a8b34ff5e06d)
+Por lo cual, no se redirigiria de manera correcta al iniciar sesión, lo único que tendrias que hacer es cambiar la dirección IP pública por la palabra localhos. Gracias.
+
 
 ---
 ### Pruebas
