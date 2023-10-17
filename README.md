@@ -57,10 +57,36 @@ Usuario no registrado:
 
 	
 ---
-# VIDEO DESPLEGADO EN AWS
+# DESPLIGUE EN AWS
+Realizaremos el despliegue en AWS
+Vemos las dos instancias en ejecución
+![image](https://github.com/rayo100/TallerSeguridad-AREP/assets/89558695/248c6afc-5adb-4a7c-aba7-7b6f5f30d854)
 
+Clonamos el repositorio en el directorio de su perferencia:
 
+    git clone https://github.com/rayo100/TallerSeguridad-AREP.git
+    
+Accedemos al repositorio clonado:
 
+    cd TallerSeguridad-AREP
+
+Hacemos la construcción del proyecto:
+
+    mvn clean install
+
+Corremos el proyecto en sus respectivas instancias:
+
+	Instancia LoginApp
+	java -cp "target/classes:target/dependency/*" com.mycompany.securespark.login.SecureSpark
+
+ 	Instancia InicioSesion
+	java -cp "target/classes:target/dependency/*" com.mycompany.securespark.Facade.SecureApp
+
+Finalmente, en el siguiente video podremos ver el despliegue correcto del proyecto en AWS y la correcta relación de las dos instancias:
+
+https://youtu.be/16mrv_Dl5f4
+
+---
 # HERRAMIENTAS
 
   * [Git](https://git-scm.com/) - Controlador de versiones
