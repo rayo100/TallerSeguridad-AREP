@@ -39,7 +39,7 @@ public class SecureSpark {
                 Session session = request.session(true);
                 session.attribute("username", username);
                 trust(getKeyTrustPath(), getKeyPassword());
-                response.redirect("https://172.31.22.185:4567/hello");
+                response.redirect("https://54.227.139.220:4567/hello");
                 return null;
             }
 
