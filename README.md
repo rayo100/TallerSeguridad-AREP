@@ -28,12 +28,10 @@ Hacemos la construcción del proyecto
 
 Ejecuta los siguientes comandos 
 
-    ```
     java -cp "target/classes;target/dependency/*" com.mycompany.securespark.login.SecureSpark
-    ```
-    ```
+    
     java -cp "target/classes;target/dependency/*" com.mycompany.securespark.Facade.SecureApp
-    ```
+    
 Cuando la aplicación haya iniciado, puedes dirigirte a tu navegador de preferencia y entrar en https://localhost:5000 para ver la app corriendo, 
 en ella encontraras página de inicio de sesión.
 
