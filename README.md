@@ -35,14 +35,14 @@ En consola de comandos diferente
     java -cp "target/classes;target/dependency/*" com.mycompany.securespark.Facade.SecureApp
     
 Cuando la aplicación haya iniciado, puedes dirigirte a tu navegador de preferencia y entrar en https://localhost:5000/login para ver la app corriendo, 
-en ella encontraras página de inicio de sesión.
+en ella encontraras mi página de inicio de sesión.
 
 ![image](https://github.com/rayo100/TallerSeguridad-AREP/assets/89558695/38a1726c-ca7b-44cd-817c-e7a8b5d61aaa)
 
 
 ---
 ### Pruebas
-Para probar que el desarrollo de la aplicación fue correcto, se probará que con un usuario registrado y con otro no registrado.
+Para probar que el desarrollo de la aplicación fue correcto, se intentará ingresar con un usuario registrado y con otro no registrado.
 Teniendo en cuenta que los usuarios registrados y sus respectivas contraseñas son:
 * cesar -> 1tapama6
 * lupin -> 123456
