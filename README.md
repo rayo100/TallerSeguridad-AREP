@@ -108,3 +108,8 @@ Para escalar la arquitectura de seguridad e incorporar nuevos servicios de maner
 # AUTOR
 
   * Cesar Vásquez [GitHub](https://github.com/rayo100)
+
+# APOYOS
+
+  * Profesor: Daniel Benavides
+  * Monitor: Jorge Saenz
