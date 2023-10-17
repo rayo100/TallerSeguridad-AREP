@@ -87,14 +87,19 @@ Finalmente, en el siguiente video podremos ver el despliegue correcto del proyec
 https://youtu.be/16mrv_Dl5f4
 
 ---
+# CÓMO ESCALAR LA ARQUITECTURA
+A mi parecer escalar nuestra arquitectura de seguridad es fundamental para garantizar que la aplicación pueda crecer y adaptarse a las demandas cambiantes.
+Para escalar la arquitectura de seguridad e incorporar nuevos servicios de manera eficiente, es esencial adoptar un enfoque modular y desacoplado, preferiblemente mediante una arquitectura de microservicios. Podriamos utilizar un API Gateway como punto de entrada y un sistema de gestión centralizada de identidad para autenticar y autorizar a los usuarios. Implementaria medidas de seguridad en capas, incluyendo auditoría y registro, y asegurandonos de que los servicios sean escalables horizontalmente. Podriamos monitorear, realiza pruebas de seguridad regulares y establece un plan de respuesta a incidentes para mantener un alto nivel de seguridad mientras la aplicación crece y evoluciona.
+
+---
 # HERRAMIENTAS
 
-  * [Git](https://git-scm.com/) - Controlador de versiones
-  * [Java](https://www.java.com/) - El lenguaje de programación utilizado
-  * [JavaScript](https://www.javascript.com/) - El lenguaje de programación utilizado para la lógica de la página principal
-  * [HTML](https://html.com/document/) - El lenguaje de marcado utilizado para la estructura de la página de inicio
-  * [Maven](https://maven.apache.org/) - Gestión de dependencias
-  * [Docker](https://www.docker.com/) - Container Management
+  * [Git](https://git-scm.com/) - Controlador de versiones.
+  * [Java](https://www.java.com/) - El lenguaje de programación utilizado.
+  * [JavaScript](https://www.javascript.com/) - El lenguaje de programación utilizado para la lógica de la página principal.
+  * [HTML](https://html.com/document/) - El lenguaje de marcado utilizado para la estructura de la página de inicio.
+  * [Maven](https://maven.apache.org/) - Gestión de dependencias.
+  * [AWS](https://www.docker.com/) - Servicio de computación en la nube.
 
 # AUTOR
 
