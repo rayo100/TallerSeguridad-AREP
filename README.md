@@ -29,10 +29,12 @@ Hacemos la construcción del proyecto
 Ejecuta los siguientes comandos 
 
     java -cp "target/classes;target/dependency/*" com.mycompany.securespark.login.SecureSpark
+
+En consola de comandos diferente
     
     java -cp "target/classes;target/dependency/*" com.mycompany.securespark.Facade.SecureApp
     
-Cuando la aplicación haya iniciado, puedes dirigirte a tu navegador de preferencia y entrar en https://localhost:5000 para ver la app corriendo, 
+Cuando la aplicación haya iniciado, puedes dirigirte a tu navegador de preferencia y entrar en https://localhost:5000/login para ver la app corriendo, 
 en ella encontraras página de inicio de sesión.
 
 ![image](https://github.com/rayo100/TallerSeguridad-AREP/assets/89558695/38a1726c-ca7b-44cd-817c-e7a8b5d61aaa)
